@@ -1,3 +1,8 @@
+'''
+With the while loop we can execute a set of 
+as long as a condition is true.
+'''
+
 # i = 1
 # while i <= 5:
 #     print("*" * i)
@@ -17,25 +22,25 @@
 # else:
 #     print("sorry you failed")        
 
-#CAR GAME
-# command =""
-# while  True:
-#     command = input(">>> ").lower()
-#     if command == "start":
-#         print("Car is started...")
-#     elif command == "stop":
-#         print("Car stopped.") 
-#     elif command == "help":
+# CAR GAME
+command =""
+while  True:
+    command = input(">>> ").lower()
+    if command == "start":
+        print("Car is started...")
+    elif command == "stop":
+        print("Car stopped.") 
+    elif command == "help":
        
-#         print("""
-# >>> start - to start the car.
-# >>> stop - to stop the car.
-# >>> quit - to quit
-#          """) 
-#     elif command == "quit":      
-#          break
-#     else:
-#         print("Sorry i don't understand") 
+        print("""
+>>> start - to start the car.
+>>> stop - to stop the car.
+>>> quit - to quit
+         """) 
+    elif command == "quit":      
+         break
+    else:
+        print("Sorry i don't understand") 
 
 # while True:
 #     name = input("enter your name: ")
@@ -81,5 +86,4 @@
 #     print("good " * i)
 
 #     i = i + 1
-
 
